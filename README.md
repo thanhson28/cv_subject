@@ -45,7 +45,7 @@ We provide several features as below:
 | Histogram of HSV split 2_2   | HSV_hist_2_2  |
 | Histogram of BGR split 4_0   | BGR_hist_4_0  |
 | Histogram of HSV split 4_0   | HSV_hist_4_0  |
-\
+
 We also provide 2 kind of Distance calculation:
 | Distance  | encode name |
 | ------------- | ------------- |
@@ -73,7 +73,7 @@ The result will be store at: *result.png*\
 You should get:
 <img align="center" src="./example/result.png">
 
-#Benchmark result:
+# Benchmark result:
 |     Methods    |  Rank1 |  Rank5 | Rank10 | Rank15 | Rank20 | Feature extraction time(s)/ img  | Feature comparation time (s)/img |
 |:--------------:|:------:|:------:|:------:|:------:|:------:|:--------------------------------:|:--------------------------------:|
 | Naïve image_L2 | 0.0035 | 0.0115 | 0.0187 | 0.0243 | 0.0285 |            9.7095e-06            |              0.9008              |
